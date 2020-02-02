@@ -1,0 +1,40 @@
+.footer {
+  background-color: $color-dark-grey;
+
+  ul {
+    list-style: none;
+
+    ul {
+      display: flex;
+
+      li {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: $default-font-color;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 10px;
+  }
+  .copyright {
+    background-color: $color-white;
+    text-align: center;
+    padding: 5px;
+  }
+}

@@ -1,0 +1,33 @@
+.top__bar {
+  display: flex;
+  justify-content: space-between;
+
+  .tabs {
+    width: 60%;
+    display: flex;
+
+    li {
+      display: inline-block;
+      color: #8a94a6;
+      list-style: none;
+      margin-right: 16px;
+      padding: 5px 12px;
+      font-weight: bold;
+
+      &.active {
+        border-radius: 16px;
+        background-color: $color-dark-grey;
+        color: $default-font-color;
+        overflow: hidden;
+      }
+    }
+  }
+
+  select {
+    margin-left: 10px;
+    color: #8a94a6;
+    background: transparent;
+    border: 0;
+    font-size: 16px;
+  }
+}
